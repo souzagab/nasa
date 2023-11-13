@@ -6,12 +6,11 @@ volumes:
   pg_data:
 
 networks:
-  houston:
+  nasa:
 
 services:
   db:
     image: postgres:15-alpine
-    container_name: postgres
     volumes:
       - pg_data:/var/lib/postgresql/data
     environment:
@@ -19,7 +18,7 @@ services:
     ports:
       - "5432:5432"
     networks:
-      - houston
+      - nasa
 
   # redis:
   #   image: redis:7-alpine
@@ -27,4 +26,4 @@ services:
   #   ports:
   #     - "6379:6379"
   #   networks:
-  #     - houston
+  #     - nasa
