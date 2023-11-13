@@ -8,11 +8,11 @@ default: &default
 
 development:
   <<: *default
-  database: houston_development
+  database: nasa_development
 
 test:
   <<: *default
-  database: houston_test
+  database: nasa_test
 
 production:
   <<: *default
