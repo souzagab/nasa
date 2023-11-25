@@ -32,6 +32,7 @@ group :development, :test do
   gem "bullet", "~> 7.1"
   gem "annotate", "~> 3.2"
   gem "faker", "~> 3.2"
+  gem "webmock", "~> 3.19"
 
   gem "rubocop", require: false
   gem "rubocop-rails", require: false
