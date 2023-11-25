@@ -2,4 +2,5 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   get "/missions" => "houston/missions#index"
+  post "/missions" => "houston/missions#create"
 end
