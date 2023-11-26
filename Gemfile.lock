@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/souzagab/houston-client.git
-  revision: d3359cc17030e74733037175f1c93cc8c397962f
+  revision: 34bb0aea71616ccbac669d05fb88b418d9d436e3
   branch: main
   specs:
     houston-client (0.1.0)
